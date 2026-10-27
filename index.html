@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Studio Hair & Beauty - Salão de beleza e barbearia premium. Cortes, coloração, barba, manicure, maquiagem e muito mais.">
+    <title>Barber Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <!-- EDITÁVEL: Nome do negócio/logo -->
+                <a href="#inicio" class="logo-container">
+                    <img src="img/Logo-barber.png" alt="logo" class="logo-img">
+                </a>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#destaques">Destaques</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <!-- Hero com imagem de fundo em tela cheia -->
+    <section class="hero" id="inicio">
+        <!-- Imagem de fundo do hero -->
+        <div class="hero-background">
+            <!-- EDITÁVEL: Troque a URL da imagem pela sua própria -->
+            <img src="img/interior.jpg" alt="Salão de beleza moderno" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">💎 Excelência em Visual Impecável</div>
+                <!-- EDITÁVEL: Título principal -->
+                <div class="hero-content-font">
+                    <h1>Barber Studio – <span>Estilo, tradição <span class="highlight">e</span> qualidade</span> em cada
+                        atendimento</h1>
+                </div>
+                <!-- EDITÁVEL: Subtítulo -->
+                <p class="hero-subtitle">Transforme seu visual com cortes modernos, barba impecável e atendimento de
+                    alto padrão. Nossa equipe une técnica, precisão e atenção aos detalhes para entregar uma experiência
+                    única em um ambiente sofisticado, confortável e pensado para homens que valorizam sua imagem.</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary"> <img class="button-icon"
+                            src="https://cdn-icons-png.flaticon.com/128/2370/2370264.png"
+                            alt="Agendar Horário" />Agendar Horário</a>
+                    <!-- EDITÁVEL: Link do WhatsApp -->
+                    <a href="https://wa.me/5511999999999" class="btn btn-secondary" target="_blank"><img
+                            class="button-icon-zap" src="img/icon-zap.png" alt="Falar no WhatsApp" />Falar no
+                        WhatsApp</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="15000">0</span>
+                        <span class="stat-label">Clientes atendidos</span>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-number" data-target="8">0</span>
+                        <span class="stat-label">Anos de experiência</span>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-number" data-target="4.8">0</span>
+                        <span class="stat-label">Avaliação média</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Imagem circular em destaque -->
+                <div class="hero-image-container">
+                    <img src="img/circular.jpg" alt="Cabeleireiro profissional trabalhando" class="hero-main-image">
+                    <div class="floating-badge">Agendar agora</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <!-- Seção sobre com imagem do salão -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre o Barber Studio</h2>
+                <p>Mais que dignidade, uma experiência inesquecível</p>
+            </div>
+            <div class="sobre-content">
+                <!-- Imagem da equipe/salão -->
+                <div class="sobre-image">
+                    <!-- EDITÁVEL: Imagem do estabelecimento ou equipe -->
+                    <img src="img/interior.jpg"
+                        alt="Equipe do Barber Studio">
+                </div>
+                <div class="sobre-info">
+                    <div class="sobre-text">
+                        <!-- EDITÁVEL: Texto sobre o negócio -->
+                        <p>Fundado em 2018, o <strong><span class="destaque-p">Barber Studio</span></strong> Nasceu da paixão por 
+                            transformar a autoestima masculina através do cuidado e do estilo. Nossa equipe de barbeiros altamente qualificados está em constante atualização 
+                            com as últimas tendências nacionais e internacionais de visagismo e barbearia.</p>
+                        <p>Oferecemos uma experiência completa em cuidados masculinos, desde cortes clássicos e modernos até colorações exclusivas, 
+                            tratamentos capilares e de barba de ponta, além de serviços de barbearia premium, cuidados com as mãos e podologia. 
+                            Tudo isso em um ambiente elegante, confortável e acolhedor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GALERIA ========== -->
+    <!-- Galeria de fotos do ambiente e serviços -->
+    <section class="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nosso Espaço</h2>
+                <p>Conheça nosso ambiente exclusivo e alguns dos nossos trabalhos</p>
+            </div>
+            <div class="galeria-grid">
+                <!-- EDITÁVEL: Imagens da galeria -->
+                <div class="galeria-item grande">
+                    <img src="img/interior.jpg"
+                        alt="Salão moderno e sofisticado">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/serviços 2.jpg"
+                        alt="Corte de cabelo profissional">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/serviços 3.jpg"
+                        alt="Coloração e pintura">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/serviços.jpg"
+                        alt="Serviço de manicure">
+                </div>
+                <div class="galeria-item">
+                    <img src="img/serviços 5.jpg"
+                        alt="Maquiagem profissional">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVIÇOS ========== -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="servicos-header-port">Nossos Serviços</h2>
+                <p class="servicos-header-port">Cortes, barba e cuidados masculinos com padrão de excelência!</p>
+            </div>
+            <div class="servicos-grid">
+                <!-- EDITÁVEL: Cards de serviços/produtos -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="img/serviços.jpg"
+                            alt="Corte de cabelo profissional">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Cortes de Cabelo</h3>
+                        <p>Corte personalizado para valorizar seu estilo e personalidade, com acabamento preciso e atenção aos detalhes para um visual moderno e bem alinhado. 💈✨</p>
+                        <span class="preco">A partir de R$ 45,00</span>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="img/luzes-cabelo.jpg"
+                            alt="Coloração e luzes">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Coloração & Luzes</h3>
+                        <p>Coloração, platinado, luzes e personalização de tonalidades para homens que desejam destacar seu estilo com um visual moderno e marcante.</p>
+                        <span class="preco">A partir de R$ 90,00</span>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="img/serviços 2.jpg"
+                            alt="Corte Infantil">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Cortes Infantil</h3>
+                        <p>Corte moderno e confortável para crianças, realizado com cuidado e paciência para garantir uma experiência tranquila e um visual cheio de estilo.</p>
+                        <span class="preco">A partir de R$ 35,00</span>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="img/serviços 4.jpg"
+                            alt="Manicure e pedicure">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Barba</h3>
+                        <p>Modelagem e acabamento profissional para valorizar seu rosto, proporcionando uma barba alinhada, elegante e bem cuidada.</p>
+                        <span class="preco">A partir de R$ 35,00</span>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="img/Capilar.jpg"
+                            alt="Reconstrução Capilar">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Reconstrução Capilar</h3>
+                        <p>Tratamento desenvolvido para restaurar os fios danificados, devolvendo força, brilho, maciez e aparência saudável ao cabelo.</p>
+                        <span class="preco">A partir de R$ 150,00</span>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="img/sobrancelha.jpg"
+                            alt=" Sobrancelhas">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Sobrancelhas</h3>
+                        <p>Design e alinhamento que realçam sua expressão facial, garantindo um visual mais harmonioso, limpo e bem definido.</p>
+                        <span class="preco">A partir de R$ 25,00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DESTAQUES ========== -->
+    <!-- Seção de destaques com imagens de resultados -->
+    <section class="destaques" id="destaques">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Destaques</h2>
+                <p>Transformações que fazem a diferença</p>
+            </div>
+            <div class="destaques-grid">
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <!-- EDITÁVEL: Imagem do resultado -->
+                        <img src="img/barber-man.jpg"
+                            alt="corte de cabelo profissional">
+                        <span class="before-after-badge">Resultado</span>
+                    </div>
+                    <div class="destaque-content">
+                        <h3>Visual Completo</h3>
+                        <p>Alinhamento perfeito + Corte Moderno e Barba desenhada com toalha quente.</p>
+                        <span class="destaque-badge">Campeão de pedidos</span>
+                    </div>
+                </div>
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="img/destaque.jpg"
+                            alt="degradê profissional">
+                        <span class="before-after-badge">Resultado</span>
+                    </div>
+                    <div class="destaque-content">
+                        <h3>Estilo & Tendência</h3>
+                        <p>Especialistas em Degradê (Fade), Social Moderno e cortes com finalização.</p>
+                        <span class="destaque-badge">Aprovado por 98%</span>
+                    </div>
+                </div>
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="img/destaque-2.jpg"
+                            alt="terapia capilar">
+                        <span class="before-after-badge">Resultado</span>
+                    </div>
+                    <div class="destaque-content">
+                        <h3>Terapia Capilar & Barba</h3>
+                        <p>Hidratação profunda, camuflagem de fios brancos e selagem capilar masculina.</p>
+                        <span class="destaque-badge">Resultados visíveis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BENEFÍCIOS ========== -->
+    <section class="beneficios">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por Que Escolher o Barber Studio?</h2>
+                <p>Diferenciais que fazem toda a diferença na sua experiência</p>
+            </div>
+            <div class="beneficios-grid">
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">📅</div>
+                    <h3>Agendamento Online</h3>
+                    <p>Agende seu horário de forma rápida e prática pelo WhatsApp ou telefone.</p>
+                </div>
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">💳</div>
+                    <h3>Formas de Pagamento</h3>
+                    <p>Aceitamos cartões de crédito/débito, PIX e dinheiro. Parcelamento em até 3x sem juros.</p>
+                </div>
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">☕</div>
+                    <h3>Café & Conforto</h3>
+                    <p>Ambiente climatizado com café, água e Wi-Fi grátis para seu conforto total.</p>
+                </div>
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">🎯</div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Consulta individual para entender suas necessidades e criar o visual perfeito.</p>
+                </div>
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">🕐</div>
+                    <h3>Horários Flexíveis</h3>
+                    <p>Aberto de segunda a sábado com horários que se adequam à sua rotina.</p>
+                </div>
+                <div class="beneficio-card">
+                    <div class="beneficio-icon">🎁</div>
+                    <h3>Programa Fidelidade</h3>
+                    <p>Acumule pontos a cada visita e ganhe descontos exclusivos e brindes especiais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DEPOIMENTOS ========== -->
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Que Nossos Clientes Dizem</h2>
+                <p>Histórias reais de transformação e autoestima renovada</p>
+            </div>
+            <div class="depoimentos-grid">
+                <!-- EDITÁVEL: Depoimentos dos clientes -->
+                <div class="depoimento-card">
+                    <div class="depoimento-header">
+                        <div class="avatar-image">
+                            <img src="https://images.unsplash.com/photo-1566753323558-f4e0952af115?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvbWVtfGVufDB8fDB8fHww"
+                                alt="Juliano Silva">
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Juliano Silva</h4>
+                            <span>Cliente há 2 anos</span>
+                        </div>
+                    </div>
+                    <p>"Frequento a Barber Studio há bastante tempo e nunca me decepcionei. 
+                    Os cortes são sempre impecáveis, o atendimento é excelente e o ambiente é muito confortável. 
+                    Recomendo de olhos fechados!"</p>
+                    <div class="depoimento-stars">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-header">
+                        <div class="avatar-image">
+                            <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhvbWVtfGVufDB8fDB8fHww"
+                                alt="Rafael Costa">
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Rafael Costa</h4>
+                            <span>Cliente VIP</span>
+                        </div>
+                    </div>
+                    <p>"Faço corte e barba regularmente na Barber Studio e o resultado é sempre perfeito.
+                 A equipe é muito profissional e atenciosa, entregando exatamente o que eu procuro em cada visita."</p>
+                    <div class="depoimento-stars">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-header">
+                        <div class="avatar-image">
+                            <img src="https://plus.unsplash.com/premium_photo-1672239496290-5061cfee7ebb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG9tZW18ZW58MHx8MHx8fDA%3D"
+                                alt="Fred Martins">
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Fred Martins</h4>
+                            <span>Reconstrução Capilar em 2025</span>
+                        </div>
+                    </div>
+                    <p>"Realizei uma reconstrução capilar na Barber Studio e fiquei impressionado com o resultado.
+                 Meu cabelo ficou muito mais saudável, brilhante e forte. Serviço de altíssima qualidade!"</p>
+                    <div class="depoimento-stars">⭐⭐⭐⭐⭐</div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-header">
+                        <div class="avatar-image">
+                            <img src="https://plus.unsplash.com/premium_photo-1671656349322-41de944d259b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZW18ZW58MHx8MHx8fDA%3D"
+                                alt="Camila Pereira">
+                        </div>
+                        <div class="depoimento-info">
+                            <h4>Gabriel Pereira</h4>
+                            <span>Corte Infantil</span>
+                        </div>
+                    </div>
+                    <p>Levei meu filho para um corte infantil e fomos muito bem atendidos.
+                 Além do ótimo resultado, a paciência e o cuidado da equipe fizeram toda a diferença. Voltaremos com certeza!"</p>
+                    <div class="depoimento-stars">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perguntas Frequentes</h2>
+                <p>Tire suas dúvidas sobre nossos serviços</p>
+            </div>
+            <div class="faq-list">
+                <!-- EDITÁVEL: Perguntas e respostas -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Como funciona o agendamento?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Você pode agendar pelo WhatsApp, telefone ou pessoalmente no salão. Recomendamos agendar com
+                            antecedência, especialmente aos finais de semana. Confirmamos seu horário por mensagem ou
+                            ligação.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Quais formas de pagamento são aceitas?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Aceitamos dinheiro, PIX, cartões de débito e crédito (todas as bandeiras). No cartão de
+                            crédito, você pode parcelar em até 3x sem juros para serviços acima de R$ 200,00.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Vocês atendem homens e mulheres?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Somos um espaço completo que atende homens, mulheres e crianças. Temos profissionais
+                            especializados em cortes masculinos, femininos e serviços de barbearia premium.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Qual o tempo médio de cada serviço?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Os cortes de cabelo levam, em média, de 30 a 45 minutos. Corte com barba pode levar de 45 minutos a 1 hora. 
+                    A reconstrução capilar dura aproximadamente 1 a 2 horas, enquanto o design de sobrancelhas leva cerca de 15 a 30 minutos. 
+                    O tempo pode variar de acordo com o serviço escolhido e as necessidades de cada cliente. 💈✨</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Os produtos utilizados são de qualidade?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Trabalhamos exclusivamente com marcas profissionais de alta qualidade, nacionais e
+                            importadas. Todos os produtos são certificados e próprios para uso profissional, garantindo
+                            os melhores resultados.</p>
+                    </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Qual o horário de funcionamento?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Funcionamos de segunda a sexta das 9h às 20h e aos sábados das 9h às 18h. Domingos e feriados
+                            fechados. Em épocas especiais (festas de fim de ano, dia das mães) podemos ter horários
+                            estendidos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Agende seu horário e venha nos visitar</p>
+            </div>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <!-- EDITÁVEL: Informações de contato -->
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 3456-7890</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>(11) 99999-9999</p>
+                            <a href="https://wa.me/5511999999999" class="btn btn-whatsapp" target="_blank">Agendar pelo
+                                WhatsApp</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <!-- EDITÁVEL: Endereço -->
+                            <p>Rua das Flores, 456 - Jardim Paulista<br>São Paulo - SP, 01455-000</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <!-- EDITÁVEL: Horário -->
+                            <p>Segunda a Sexta: 9h às 20h<br>Sábado: 9h às 18h<br>Domingo: Fechado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-mapa">
+                    <!-- Bloco simulando mapa -->
+                    <div class="mapa-placeholder">
+                        <div class="mapa-pin">📍</div>
+                        <p>Barber Studio</p>
+                        <span>Clique para ver no Google Maps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ÁREA RESERVADA PARA AGENTE DE IA ========== -->
+    <!-- Área reservada para agente de IA no futuro -->
+    <div id="ai-agent-container" class="ai-agent-area">
+        <!-- O widget do agente de IA será inserido aqui -->
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- EDITÁVEL: Nome do negócio -->
+                <div class="footer-logo"> 💈Barber Studio</div>
+                <p>Mais que um corte, uma experiência de transformação desde 2016.</p>
+                <div class="footer-links">
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"> <img class="footer-icon" src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png" alt="Instagram"></a>
+                    <a href="#" aria-label="Facebook"> <img  class="footer-icon" src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" alt="Facebook"></a>
+                    <a href="#" aria-label="WhatsApp"> <img class="footer-icon" src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <!-- EDITÁVEL: Copyright -->
+                <p>&copy; 2026 Barber Studio. Todos os direitos reservados.</p>
+                <p><a href="#privacidade">Política de Privacidade</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Política de Privacidade (texto simples no rodapé) -->
+    <section class="privacidade" id="privacidade">
+        <div class="container">
+            <h3>Política de Privacidade</h3>
+            <p>O Barber Studio respeita sua privacidade. Os dados coletados são utilizados apenas para
+                agendamentos e comunicação com clientes. Não compartilhamos informações pessoais com terceiros sem
+                consentimento. Fotos de transformações são utilizadas apenas com autorização expressa do cliente.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
